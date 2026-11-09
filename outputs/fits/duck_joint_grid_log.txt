@@ -1,0 +1,7 @@
+grid: 55 runs in 1532 s; best:
+   rmse 1.24 mm  Y=10000.0 kappa=12.0 tau_v=0.06 tau_air=0.06
+   rmse 1.35 mm  Y=30000.0 kappa=12.0 tau_v=0.06 tau_air=0.02
+   rmse 1.35 mm  Y=30000.0 kappa=12.0 tau_v=0.06 tau_air=0.2
+   rmse 1.85 mm  Y=34680.0 kappa=10.33 tau_v=0.0498 tau_air=0.0479
+   rmse 1.86 mm  Y=10000.0 kappa=12.0 tau_v=0.06 tau_air=0.2
+   rmse 1.86 mm  Y=10000.0 kappa=12.0 tau_v=0.02 tau_air=0.02

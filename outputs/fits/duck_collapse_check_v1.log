@@ -1,0 +1,3 @@
+v1: 380 points by ray direction, no self-contact   21.2 s   folded hinges max  154   pass-throughs max   37   free-recovery error 0.49 mm   air pressure -10962..+9775 Pa   presser floor 4.0 mm
+v2: 900 even points, self-contact, mesh-independent bending   43.0 s   folded hinges max  111   pass-throughs max    2   free-recovery error 1.21 mm   air pressure -4421..+5032 Pa   presser floor 5.7 mm
+wrote outputs\fits\duck_collapse_check_v1.png

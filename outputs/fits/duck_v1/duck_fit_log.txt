@@ -1,0 +1,13 @@
+grid: 64 runs in 848 s; best:
+   rmse 1.89 mm  Y=30000.0 kappa=10.0 tau_v=0.1 tau_air=0.3
+   rmse 2.12 mm  Y=1000.0 kappa=0.3 tau_v=0.1 tau_air=0.3
+   rmse 2.24 mm  Y=3000.0 kappa=0.3 tau_v=0.1 tau_air=0.3
+   rmse 2.32 mm  Y=1000.0 kappa=0.3 tau_v=0.1 tau_air=0.05
+   rmse 2.45 mm  Y=1000.0 kappa=10.0 tau_v=0.1 tau_air=0.05
+   rmse 2.52 mm  Y=30000.0 kappa=10.0 tau_v=0.1 tau_air=0.05
+Nelder-Mead from 3 starts in 1815 s:
+   rmse 0.84 mm after 40 runs: Y=5.023e+04, kappa=10, tau_v=0.1, tau_air=0.3
+   rmse 1.98 mm after 40 runs: Y=321.8, kappa=0.2237, tau_v=0.1041, tau_air=0.3022
+   rmse 2.01 mm after 40 runs: Y=813.1, kappa=0.2871, tau_v=0.1098, tau_air=0.3085
+upright clips predicted with the lying-fit values: {'B1': 11.133678591751568, 'B2': 44.29657851706122}
+test: {'A2': 6.340569045722674}

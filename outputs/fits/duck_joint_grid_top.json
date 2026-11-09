@@ -1,0 +1,59 @@
+{
+  "note": "top 6 of the 55-point v2 joint grid (A1+A2), from duck_joint_fit_log.txt; the run was interrupted during Nelder-Mead",
+  "grid": [
+    {
+      "theta": [
+        10000.0,
+        12.0,
+        0.06,
+        0.06
+      ],
+      "rmse": 1.24
+    },
+    {
+      "theta": [
+        30000.0,
+        12.0,
+        0.06,
+        0.02
+      ],
+      "rmse": 1.35
+    },
+    {
+      "theta": [
+        30000.0,
+        12.0,
+        0.06,
+        0.2
+      ],
+      "rmse": 1.35
+    },
+    {
+      "theta": [
+        34680.0,
+        10.33,
+        0.0498,
+        0.0479
+      ],
+      "rmse": 1.85
+    },
+    {
+      "theta": [
+        10000.0,
+        12.0,
+        0.06,
+        0.2
+      ],
+      "rmse": 1.86
+    },
+    {
+      "theta": [
+        10000.0,
+        12.0,
+        0.02,
+        0.02
+      ],
+      "rmse": 1.86
+    }
+  ]
+}

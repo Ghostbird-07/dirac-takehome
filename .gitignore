@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+*.pyc
+# raw videos (~330 MB) are shared by link, not in git
+duck videos/
+user videos/

@@ -1,0 +1,117 @@
+{
+  "lumped/face_press": {
+    "model": "lumped spring-damper (1 point)",
+    "rmse_fit_mm": 1.1977390124765166,
+    "params": {
+      "tau_v": 0.0253406534378355,
+      "beta": 1.3708478118182978,
+      "tau_m": 0.11040029322404403
+    },
+    "fit_clips": [
+      "A1"
+    ],
+    "test_rmse_mm": {
+      "A2": 2.007531109182606
+    },
+    "seconds": 6.4
+  },
+  "lumped/head_press": {
+    "model": "lumped spring-damper (1 point)",
+    "rmse_fit_mm": 0.817067229667654,
+    "params": {
+      "tau_v": 0.0010008317362039491,
+      "beta": 0.3601378334441895,
+      "tau_m": 0.24030130556657336
+    },
+    "fit_clips": [
+      "B1"
+    ],
+    "test_rmse_mm": {
+      "B2": 2.931516120956487
+    },
+    "seconds": 8.4
+  },
+  "shell/face_press": {
+    "model": "hollow shell + air (3D)",
+    "rmse_fit_mm": 1.9724603949387576,
+    "params": {
+      "Y": 2114.6102106008657,
+      "kappa": 0.4829499968393541,
+      "tau_v": 0.0011449945552002873,
+      "tau_air": 0.02683250675367584
+    },
+    "fit_clips": [
+      "A1"
+    ],
+    "test_rmse_mm": {
+      "A2": 1.4551871920700519
+    },
+    "seconds": 2347.0
+  },
+  "duck/face_press": {
+    "model": "duck-shaped shell + air (3D, lying)",
+    "rmse_fit_mm": 0.6108947214151468,
+    "params": {
+      "Y": 30000.000000000007,
+      "kappa": 12.0,
+      "tau_v": 0.06,
+      "tau_air": 0.1845361669181177
+    },
+    "fit_clips": [
+      "A1"
+    ],
+    "test_rmse_mm": {
+      "A2": 0.7454844474815361
+    },
+    "seconds": 3706.1
+  },
+  "duck/head_press_transfer": {
+    "model": "duck-shaped shell + air (3D, upright)",
+    "params": {
+      "Y": 30000.000000000007,
+      "kappa": 12.0,
+      "tau_v": 0.06,
+      "tau_air": 0.1845361669181177
+    },
+    "fitted_on": [
+      "A1"
+    ],
+    "test_rmse_mm": {
+      "B1": 19.149178300704563,
+      "B2": 10.505635486016537
+    }
+  },
+  "duck/face_press_joint": {
+    "model": "duck-shaped shell + air (3D, lying)",
+    "rmse_fit_mm": 0.6778709209577358,
+    "params": {
+      "Y": 30000.000000000007,
+      "kappa": 12.0,
+      "tau_v": 0.06,
+      "tau_air": 0.1845361669181177
+    },
+    "fit_clips": [
+      "A1",
+      "A2"
+    ],
+    "test_rmse_mm": {},
+    "seconds": 5226.4
+  },
+  "duck/head_press_transfer_joint": {
+    "model": "duck-shaped shell + air (3D, upright)",
+    "params": {
+      "Y": 30000.000000000007,
+      "kappa": 12.0,
+      "tau_v": 0.06,
+      "tau_air": 0.1845361669181177
+    },
+    "fitted_on": [
+      "A1",
+      "A2"
+    ],
+    "test_rmse_mm": {
+      "B1": 19.149178300704563,
+      "B2": 10.505635486016537
+    }
+  }
+}

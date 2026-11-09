@@ -1,0 +1,68 @@
+{
+  "duck/face_press": {
+    "model": "duck-shaped shell + air (3D, lying)",
+    "rmse_fit_mm": 0.8360407388994546,
+    "params": {
+      "Y": 50231.63536133635,
+      "kappa": 10.000000000000002,
+      "tau_v": 0.10000000000000002,
+      "tau_air": 0.3
+    },
+    "fit_clips": [
+      "A1"
+    ],
+    "test_rmse_mm": {
+      "A2": 6.340569045722674
+    },
+    "seconds": 2799.8
+  },
+  "duck/head_press_transfer": {
+    "model": "duck-shaped shell + air (3D, upright)",
+    "params": {
+      "Y": 50231.63536133635,
+      "kappa": 10.000000000000002,
+      "tau_v": 0.10000000000000002,
+      "tau_air": 0.3
+    },
+    "fitted_on": [
+      "A1"
+    ],
+    "test_rmse_mm": {
+      "B1": 11.133678591751568,
+      "B2": 44.29657851706122
+    }
+  },
+  "duck/face_press_joint": {
+    "model": "duck-shaped shell + air (3D, lying)",
+    "rmse_fit_mm": 1.004067954302989,
+    "params": {
+      "Y": 34680.134438672154,
+      "kappa": 10.329100427700288,
+      "tau_v": 0.04976650531710849,
+      "tau_air": 0.047937377337865
+    },
+    "fit_clips": [
+      "A1",
+      "A2"
+    ],
+    "test_rmse_mm": {},
+    "seconds": 2213.8
+  },
+  "duck/head_press_transfer_joint": {
+    "model": "duck-shaped shell + air (3D, upright)",
+    "params": {
+      "Y": 34680.134438672154,
+      "kappa": 10.329100427700288,
+      "tau_v": 0.04976650531710849,
+      "tau_air": 0.047937377337865
+    },
+    "fitted_on": [
+      "A1",
+      "A2"
+    ],
+    "test_rmse_mm": {
+      "B1": 16.86928510259083,
+      "B2": 42.12684839278161
+    }
+  }
+}

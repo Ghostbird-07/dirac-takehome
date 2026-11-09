@@ -1,0 +1,13 @@
+grid: 128 runs in 584 s; best:
+   rmse 2.86 mm  Y=10000 kappa=0.5 tau_v=0.02 tau_air=0.02
+   rmse 3.64 mm  Y=10000 kappa=0.5 tau_v=0.003 tau_air=0.06
+   rmse 3.70 mm  Y=3000 kappa=0.5 tau_v=0.003 tau_air=0.02
+   rmse 4.06 mm  Y=3000 kappa=2 tau_v=0.003 tau_air=0.02
+   rmse 4.06 mm  Y=10000 kappa=2 tau_v=0.003 tau_air=0.06
+   rmse 4.30 mm  Y=10000 kappa=0.5 tau_v=0.02 tau_air=0.06
+Nelder-Mead from 4 starts in 1730 s:
+   rmse 1.97 mm after 120 runs: Y=2115, kappa=0.4829, tau_v=0.001145, tau_air=0.02683
+   rmse 2.61 mm after 113 runs: Y=1.97e+04, kappa=0.3753, tau_v=0.02085, tau_air=0.01022
+   rmse 2.79 mm after 120 runs: Y=1.058e+04, kappa=0.4334, tau_v=0.002202, tau_air=0.1228
+   rmse 3.51 mm after 120 runs: Y=1.968e+04, kappa=1.634, tau_v=0.01131, tau_air=0.01
+test: {'A2': 1.4551871920700519}

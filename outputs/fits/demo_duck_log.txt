@@ -1,0 +1,4 @@
+rendered A1
+rendered A2
+rendered B1
+wrote outputs\demo_duck.mp4

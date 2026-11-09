@@ -1,0 +1,58 @@
+{
+  "_about": "Which videos are used, for what, and the few values read off the footage by hand. Times are real seconds; frames are 0-based. 'fit' clips are used to fit the model, 'test' clips are held out and only predicted.",
+  "duck": {
+    "height_mm": 110,
+    "width_mm": 55,
+    "scale_clip": "duck videos/VID_20261109_114131795.mp4"
+  },
+  "clips": [
+    {
+      "id": "A1",
+      "file": "duck videos/VID_20261109_114204909.mp4",
+      "interaction": "face_press",
+      "role": "fit",
+      "notes": "Duck on its back, glue-bottle nozzle pressed into the face (deep: the head caves in), held ~0.8 s, lifted fast.",
+      "px_per_mm": 8.1,
+      "px_per_mm_note": "lying head height: 420-423 px in A1/A2 vs 438 px in the ruler clip, where the ruler gives 8.4 px/mm (head = 52 mm) -> 8.1 px/mm (+-4%)"
+    },
+    {
+      "id": "A2",
+      "file": "duck videos/VID_20261109_114213671.mp4",
+      "interaction": "face_press",
+      "role": "test",
+      "notes": "Same set-up as A1, shallower press, held ~1.5 s. Clip starts with the nozzle already touching.",
+      "px_per_mm": 8.1,
+      "px_per_mm_note": "lying head height: 420-423 px in A1/A2 vs 438 px in the ruler clip, where the ruler gives 8.4 px/mm (head = 52 mm) -> 8.1 px/mm (+-4%)"
+    },
+    {
+      "id": "B1",
+      "file": "duck videos/VID_20261109_114246721.mp4",
+      "interaction": "head_press",
+      "role": "fit",
+      "free_start_frame": 158,
+      "notes": "Duck upright, held at the base by hand, flat bottom of a glue bottle pressed down on the head. Side/back view. Bottle clear of the hat from frame 158 (read by eye).",
+      "px_per_mm": 7.5,
+      "px_per_mm_note": "duck height 110 mm = ~827 px (hat top y~13 to base y~840) in the last frame"
+    },
+    {
+      "id": "B2",
+      "file": "duck videos/VID_20261109_114320016.mp4",
+      "interaction": "head_press",
+      "role": "test",
+      "free_start_frame": 70,
+      "notes": "Same set-up and view as B1; clip starts pressed. Bottle clear of the hat from frame 70 (read by eye).",
+      "px_per_mm": 9.2,
+      "px_per_mm_note": "base cut off; hat width ~440 px vs ~360 px in B1 (same side view) -> 7.5 x 1.22"
+    },
+    {
+      "id": "B3",
+      "file": "duck videos/VID_20261109_114311051.mp4",
+      "interaction": "head_press",
+      "role": "extra",
+      "free_start_frame": 125,
+      "notes": "Head press filmed from the FRONT (duck turned 90 deg). Head folds fully sideways and snaps back within ~3 frames. Hat hidden while pressed, so the press depth is not measurable.",
+      "px_per_mm": 9.2,
+      "px_per_mm_note": "same view and hat size as B2 in the last frame"
+    }
+  ]
+}
